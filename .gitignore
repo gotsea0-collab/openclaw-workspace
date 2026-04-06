@@ -1,0 +1,28 @@
+# Sensitive / local-only
+config.json
+*.log
+logs/
+data/
+__pycache__/
+*.pyc
+*.pyo
+runtime/
+memory/
+*.xlsx
+*.csv
+*.png
+*.pdf
+*_token*
+*_secret*
+*_key*
+
+# Scratch / temp
+_temp/
+temp_scripts/
+_tmp_*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

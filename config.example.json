@@ -1,0 +1,28 @@
+{
+  "system": {
+    "name": "Kiwoom Quant Trading System v2.0",
+    "mode": "REAL_ONLY",
+    "timezone": "Asia/Seoul"
+  },
+  "api": {
+    "app_key": "YOUR_KIWOOM_APP_KEY",
+    "app_secret": "YOUR_KIWOOM_APP_SECRET",
+    "base_url": "https://api.kiwoom.com"
+  },
+  "account": {
+    "account_id": "YOUR_ACCOUNT_ID"
+  },
+  "notifications": {
+    "telegram_bot_token": "YOUR_BOT_TOKEN",
+    "telegram_chat_id": "YOUR_CHAT_ID"
+  },
+  "strategies": {
+    "oversold_rebound": {
+      "universe": ["KOSPI200", "KOSDAQ150"],
+      "buy_window": ["15:20", "15:28"],
+      "stop_loss_pct": -0.02,
+      "take_profit_partial_pct": 0.05,
+      "next_day_exit_time": "10:00"
+    }
+  }
+}
